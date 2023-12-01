@@ -78,6 +78,7 @@ func main() {
 	inp := get_input()
 	fmt.Println("INPUT:")
 	fmt.Println(inp)
-	fmt.Println("Part 1:")
-	p1(inp)
+	//fmt.Println("Part 1:")
+	//p1(inp)
+
 }
