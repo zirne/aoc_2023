@@ -20,3 +20,11 @@ input.txt
 
 # Go workspace file
 go.work
+
+
+# Manual Python stuff
+
+# PyCharm
+.idea
+
+*.pyc

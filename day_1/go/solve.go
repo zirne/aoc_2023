@@ -29,7 +29,7 @@ func get_input() []string {
 	flag.Parse()
 	if len(flag.Args()) > 0 {
 		inp_file := flag.Args()[0]
-		inp_file = "./" + inp_file
+		inp_file = "../" + inp_file
 		data, err := readLines(inp_file)
 
 		check(err)
